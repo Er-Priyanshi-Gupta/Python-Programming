@@ -4,7 +4,7 @@ print("Enter 1 number")
 num1 = int(input())
 print("Enter 2 number")
 num2 = int(input())
-print("Enter the operation you want to perform")
+print("Enter the operator")
 operator = input()
 if (operator == "+"):
     print(num1 + num2)
