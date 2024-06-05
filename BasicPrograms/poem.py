@@ -7,8 +7,8 @@ A wondrous tapestry called life.
 In dawn's embrace, the world awakes,
 A symphony the morning makes.
 The sun climbs high, the sky is wide,
-Hope and dreams, our constant guide.
 
+Hope and dreams, our constant guide.
 Through fields of green, we chase our dreams,
 With laughter's song in rippling streams.
 Yet shadows fall as twilight nears,
