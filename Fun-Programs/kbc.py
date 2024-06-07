@@ -16,6 +16,7 @@ quit =""
 while count<20 and quit!= "quit":
     number = int(random.randint(0,19)) 
     print(question[number],"\n")
+    question.remove(question[number])
     print("Options are :- \n")
     for i in option[number]:
         print(i)
