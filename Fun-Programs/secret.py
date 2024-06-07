@@ -34,10 +34,4 @@ print("Enter a string ")
 userInput = input()
 print("For encoding enter 1 \nFor decoding enter 2")
 choice = input()
-if choice == "1":
-    encode(userInput)
-elif choice == '2':
-    decode(userInput)
-else:
-    print("Invalid choice")
-
+encode(userInput) if choice == "1" else decode(userInput) if choice == '2' else  print("Invalid choice")
