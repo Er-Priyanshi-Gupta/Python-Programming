@@ -32,7 +32,7 @@ def decode(sentence):
         print(sentence,end=" ")
 print("Enter a string ")
 userInput = input()
-print("For encoding enter 1 \n For decoding enter 2")
+print("For encoding enter 1 \nFor decoding enter 2")
 choice = input()
 if choice == "1":
     encode(userInput)
