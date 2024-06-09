@@ -134,9 +134,11 @@ match count:
         case _:pass
 if flag == 1:
     if amount >= 10000 and amount <320000:
-        print("Prize Amount Won ₹10,000/-")
+        print("Hurray!! Prize Amount You Won ₹10,000/-")
     elif amount >=320000 and  amount < 7500000:
-        print("Prize Amount Won ₹75,00,000/-")
+        print("Hurray!! Prize Amount You Won ₹75,00,000/-")
+    elif amount == 70000000:
+        print("Hurray!! Prize Amount You Won ₹7,00,00,000/-")
     else:
         print("OPPs you lose")
         
