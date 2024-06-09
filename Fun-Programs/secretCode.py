@@ -2,7 +2,7 @@ import string
 import random
 def reverse(sentence):
     return sentence[::-1]
-def encode(sentence):
+def code(sentence):
     if len(sentence)<3:
          print(reverse(sentence))
     else:
@@ -34,4 +34,4 @@ print("Enter a string ")
 userInput = input()
 print("For encoding enter 1 \nFor decoding enter 2")
 choice = input()
-encode(userInput) if choice == "1" else decode(userInput) if choice == '2' else  print("Invalid choice")
+code(userInput) if choice == "1" else decode(userInput) if choice == '2' else  print("Invalid choice")
