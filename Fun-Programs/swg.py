@@ -15,9 +15,6 @@ while(runn == "1"):
             elif computerChoice == "2" and userChoice == "3" :
                 print("You Win Computer Lose")
                 userScore+= 1
-            # elif computerChoice == "3" and userChoice == "2" :
-            #     print("You Win Computer Lose")
-            #     userScore+= 1
             else:
                 print("You Lose Computer Win")
                 computerScore+= 1
